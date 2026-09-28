@@ -1,0 +1,112 @@
+[0m22:55:05.504693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA31DF770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA1BFBB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA6B8B9D0>]}
+
+
+============================== 22:55:05.868792 | 67ae960c-c3bd-421a-be7b-20b89e2997b3 ==============================
+[0m22:55:05.868792 [info ] [MainThread]: Running with dbt=1.12.5
+[0m22:55:05.870700 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ARYAN M\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'log_path': 'logs'}
+[0m22:55:25.305818 [debug] [MainThread]: Starter project path: C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:55:25.362369 [info ] [MainThread]: Setting up your profile.
+[0m22:55:46.043096 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m22:55:46.044662 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m22:55:46.046779 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:00:28.133529 [info ] [MainThread]: Profile aryan_dbt written to C:\Users\ARYAN M\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m23:00:28.207596 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m23:00:28.209215 [info ] [MainThread]: dbt version: 1.12.5
+[0m23:00:28.210198 [info ] [MainThread]: python version: 3.14.7
+[0m23:00:28.211045 [info ] [MainThread]: python path: C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\.venv\Scripts\python.exe
+[0m23:00:28.211786 [info ] [MainThread]: os info: Windows-11-10.0.22621-SP0
+[0m23:00:28.374813 [info ] [MainThread]: Using profiles dir at C:\Users\ARYAN M\.dbt
+[0m23:00:28.376721 [info ] [MainThread]: Using profiles.yml file at C:\Users\ARYAN M\.dbt\profiles.yml
+[0m23:00:28.378004 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\aryan_dbt\dbt_project.yml
+[0m23:00:28.379002 [info ] [MainThread]: adapter type: databricks
+[0m23:00:28.379986 [info ] [MainThread]: adapter version: 1.10.9
+[0m23:00:28.696041 [info ] [MainThread]: Configuration:
+[0m23:00:28.697280 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:00:28.698278 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:00:28.699191 [info ] [MainThread]: Required dependencies:
+[0m23:00:28.700215 [debug] [MainThread]: Executing "git --help"
+[0m23:00:28.789324 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:00:28.790930 [debug] [MainThread]: STDERR: "b''"
+[0m23:00:28.791848 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:00:28.792846 [info ] [MainThread]: Connection:
+[0m23:00:28.793821 [info ] [MainThread]:   host: dbc-2fe73f02-9188.cloud.databricks.com
+[0m23:00:28.794689 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/57f83dc9c56bc137
+[0m23:00:28.795634 [info ] [MainThread]:   catalog: dbt_tutorial
+[0m23:00:28.796608 [info ] [MainThread]:   schema: default
+[0m23:00:28.798158 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m23:00:30.273755 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m23:00:30.274742 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m23:00:30.275943 [debug] [MainThread]: Using databricks connection "debug"
+[0m23:00:30.276907 [debug] [MainThread]: On debug: select 1 as id
+[0m23:00:30.277901 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:00:34.420515 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1bb62-4f26-1c0f-81d6-7ccc77d70db5) - Created
+[0m23:00:34.972575 [debug] [MainThread]: SQL status: OK in 4.690 seconds
+[0m23:00:34.975971 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f1bb62-4f26-1c0f-81d6-7ccc77d70db5, command-id=01f1bb62-4ff0-1db0-b043-e1302f3fb763) - Closing
+[0m23:00:34.977427 [debug] [MainThread]: On debug: Close
+[0m23:00:34.978689 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f1bb62-4f26-1c0f-81d6-7ccc77d70db5) - Closing
+[0m23:00:35.282067 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:00:35.283404 [info ] [MainThread]: [32mAll checks passed![0m
+[0m23:00:35.285076 [info ] [MainThread]: Your new dbt project "aryan_dbt" was created!
+Initialized new project in C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\aryan_dbt\aryan_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:00:35.289077 [debug] [MainThread]: Command `dbt init` succeeded at 23:00:35.288696 after 330.66 seconds
+[0m23:00:35.290473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEA74B7490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEBB62E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEBB4ED590>]}
+[0m23:00:35.291645 [debug] [MainThread]: Flushing usage events
+[0m23:00:36.290978 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:01:03.670761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9BC823C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD998191D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9E60B890>]}
+
+
+============================== 23:01:03.685620 | f97441f6-3476-48bf-add8-bbcdaf2fae7e ==============================
+[0m23:01:03.685620 [info ] [MainThread]: Running with dbt=1.12.5
+[0m23:01:03.687836 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ARYAN M\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m23:01:03.777458 [info ] [MainThread]: dbt version: 1.12.5
+[0m23:01:03.779291 [info ] [MainThread]: python version: 3.14.7
+[0m23:01:03.781713 [info ] [MainThread]: python path: C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\.venv\Scripts\python.exe
+[0m23:01:03.783910 [info ] [MainThread]: os info: Windows-11-10.0.22621-SP0
+[0m23:01:06.632275 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:01:06.633804 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:01:06.635050 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:01:09.207505 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m23:01:09.211568 [info ] [MainThread]: Using profiles dir at C:\Users\ARYAN M\.dbt
+[0m23:01:09.213972 [info ] [MainThread]: Using profiles.yml file at C:\Users\ARYAN M\.dbt\profiles.yml
+[0m23:01:09.216192 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\dbt_project.yml
+[0m23:01:09.219297 [info ] [MainThread]: Configuration:
+[0m23:01:09.221942 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:01:09.223970 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:01:09.226549 [info ] [MainThread]: Required dependencies:
+[0m23:01:09.232962 [debug] [MainThread]: Executing "git --help"
+[0m23:01:09.458080 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:01:09.460193 [debug] [MainThread]: STDERR: "b''"
+[0m23:01:09.464151 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:01:09.466727 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:01:09.468979 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:01:09.470900 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "aws_dbt_snowflake_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m23:01:09.472887 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\ARYAN M\OneDrive\Desktop\DBT_WITH_CICD\dbt_project.yml> not found
+
+[0m23:01:09.480810 [debug] [MainThread]: Command `dbt debug` failed at 23:01:09.480044 after 6.48 seconds
+[0m23:01:09.482903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ADB25BF6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ADB275D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ADB278D260>]}
+[0m23:01:09.484364 [debug] [MainThread]: Flushing usage events
+[0m23:01:10.468926 [debug] [MainThread]: An error was encountered while trying to flush usage events
