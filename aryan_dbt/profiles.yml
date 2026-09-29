@@ -6,7 +6,15 @@ aryan_dbt:
       http_path: /sql/1.0/warehouses/57f83dc9c56bc137
       schema: default
       threads: 1
-      token: {{ env_var('DBT_DATABRICKS_TOKEN') }}
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-2fe73f02-9188.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/57f83dc9c56bc137
+      schema: default
+      threads: 1
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
       type: databricks
   target: dev
 
